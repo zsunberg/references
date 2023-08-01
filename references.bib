@@ -3,6 +3,7 @@
 @String { aaai        = {AAAI Conference on Artificial Intelligence (AAAI)} }
 @String { aamas       = {International Conference on Autonomous Agents and Multiagent Systems (AAMAS)} }
 @String { acc         = {American Control Conference (ACC)} }
+@String { amos        = {Advanced {M}aui Optical and Space Surveillance Technologies Conference}}
 @String { atm         = {Air Traffic Management Research and Development Seminar}}
 @String { aiaa_info   = {AIAA Infotech@Aerospace Conference} }
 @String { aiaa_jacic  = {Journal of Aerospace Computing, Information, and Communication} }
@@ -92,7 +93,7 @@
 
 @article{berner2019dota,
   title={Dota 2 with large scale deep reinforcement learning},
-  author={Berner, Christopher and Brockman, Greg and Chan, Brooke and Cheung, Vicki and D{k{e}}biak, Przemys{\l}aw and Dennison, Christy and Farhi, David and Fischer, Quirin and Hashme, Shariq and Hesse, Chris and others},
+  author={Berner, Christopher and Brockman, Greg and Chan, Brooke and Cheung, Vicki and D{k{e}}biak, Przemys{\l}aw and Dennison, Christy and Farhi, David and Fischer, Quirin and Hashme, Shariq and Hesse, Chris and Rafal Józefowicz and Scott Gray and Catherine Olsson and Jakub Pachocki and Michael Petrov and Henrique P.d.O. Pinto and Jonathan Raiman and Tim Salimans and Jeremy Schlatter and Jonas Schneider and Szymon Sidor and Ilya Sutskever and Jie Tang and Filip Wolski and Susan Zhang},
   journal={arXiv preprint arXiv:1912.06680},
   year={2019}
 }
@@ -132,7 +133,7 @@
     issn="1573-0565",
 }
 
-@article {silver2018alphago,
+@article {silver2018alphazero,
 	author = {Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou, Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and Kumaran, Dharshan and Graepel, Thore and Lillicrap, Timothy and Simonyan, Karen and Hassabis, Demis},
 	title = {A general reinforcement learning algorithm that masters {C}hess, {S}hogi, and {G}o through self-play},
 	volume = {362},
@@ -141,7 +142,6 @@
 	year = {2018},
 	doi = {10.1126/science.aar6404},
 	publisher = {American Association for the Advancement of Science},
-	abstract = {Computers can beat humans at increasingly complex games, including chess and Go. However, these programs are typically constructed for a particular game, exploiting its properties, such as the symmetries of the board on which it is played. Silver et al. developed a program called AlphaZero, which taught itself to play Go, chess, and shogi (a Japanese version of chess) (see the Editorial, and the Perspective by Campbell). AlphaZero managed to beat state-of-the-art programs specializing in these three games. The ability of AlphaZero to adapt to various game rules is a notable step toward achieving a general game-playing system.Science, this issue p. 1140; see also pp. 1087 and 1118The game of chess is the longest-studied domain in the history of artificial intelligence. The strongest programs are based on a combination of sophisticated search techniques, domain-specific adaptations, and handcrafted evaluation functions that have been refined by human experts over several decades. By contrast, the AlphaGo Zero program recently achieved superhuman performance in the game of Go by reinforcement learning from self-play. In this paper, we generalize this approach into a single AlphaZero algorithm that can achieve superhuman performance in many challenging games. Starting from random play and given no domain knowledge except the game rules, AlphaZero convincingly defeated a world champion program in the games of chess and shogi (Japanese chess), as well as Go.},
 	issn = {0036-8075},
 	URL = {https://science.sciencemag.org/content/362/6419/1140},
 	eprint = {https://science.sciencemag.org/content/362/6419/1140.full.pdf},
@@ -279,7 +279,6 @@
   volume={2008},
   year={2008},
 }
-
 
 @techreport{young2020architecture,
   title={Architecture and Information Requirements to Assess and Predict Flight Safety Risks During Highly Autonomous Urban Flight Operations},
@@ -419,34 +418,15 @@
   publisher={{SAGE} Publications Sage UK: London, England}
 }
 
-@inproceedings{fridovich2020efficient,
-  title={Efficient Iterative Linear-quadratic Approximations for Nonlinear Multi-player General-sum Differential Games},
-  author={Fridovich-Keil, David and Ratner, Ellis and Peters, Lasse and Dragan, Anca D and Tomlin, Claire J},
-  booktitle=icra,
-  pages={1475--1481},
-  year={2020},
+
+@inproceedings{hoerger2021online,
+  title={An online POMDP solver for continuous observation spaces},
+  author={Hoerger, Marcus and Kurniawati, Hanna},
+  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={7643--7649},
+  year={2021},
   organization={IEEE}
 }
-
-@misc{hoerger2020online,
-      title={An On-Line POMDP Solver for Continuous Observation Spaces}, 
-      author={Marcus Hoerger and Hanna Kurniawati},
-      year={2020},
-      eprint={2011.02076},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
-}
-
-%%article{vinyals2019grandmaster,
-%  title={Grandmaster level in StarCraft II using multi-agent reinforcement learning},
-%  author={Vinyals, Oriol and Babuschkin, Igor and Czarnecki, Wojciech M. and Mathieu, Micha{\"e}l and Dudzik, Andrew and Chung, Junyoung and Choi, David H. and Powell, Richard and Ewalds, Timo and Georgiev, Petko and others},
-%  journal={Nature},
-%  volume={575},
-%  number={7782},
-%  pages={350--354},
-%  year={2019},
-%  publisher={Nature Publishing Group}
-%}
 
 @article{vinyals2019grandmaster,
 author={Vinyals, Oriol and Babuschkin, Igor and Czarnecki, Wojciech M.  and Mathieu, Micha{\"e}l and Dudzik, Andrew and Chung, Junyoung and Choi, David H.  and Powell, Richard and Ewalds, Timo and Georgiev, Petko and Oh, Junhyuk and Horgan, Dan and Kroiss, Manuel and Danihelka, Ivo and Huang, Aja and Sifre, Laurent and Cai, Trevor and Agapiou, John P.  and Jaderberg, Max and Vezhnevets, Alexander S.  and Leblond, R{\'e}mi and Pohlen, Tobias and Dalibard, Valentin and Budden, David and Sulsky, Yury and Molloy, James and Paine, Tom L.  and Gulcehre, Caglar and Wang, Ziyu and Pfaff, Tobias and Wu, Yuhuai and Ring, Roman and Yogatama, Dani and W{\"u}nsch, Dario and McKinney, Katrina and Smith, Oliver and Schaul, Tom and Lillicrap, Timothy and Kavukcuoglu, Koray and Hassabis, Demis and Apps, Chris and Silver, David},
@@ -503,7 +483,6 @@ url={https://doi.org/10.1038/s41586-019-1724-z}
 	year = {2017},
 	doi = {10.1126/science.aam6960},
 	publisher = {American Association for the Advancement of Science},
-	abstract = {Computers can beat humans at games as complex as chess or go. In these and similar games, both players have access to the same information, as displayed on the board. Although computers have the ultimate poker face, it has been tricky to teach them to be good at poker, where players cannot see their opponents{\textquoteright} cards. Morav{\v c}{\'i}k et al. built a code dubbed DeepStack that managed to beat professional poker players at a two-player poker variant called heads-up no-limit Texas hold{\textquoteright}em. Instead of devising its strategy beforehand, DeepStack recalculated it at each step, taking into account the current state of the game. The principles behind DeepStack may enable advances in solving real-world problems that involve information asymmetry.Science, this issue p. 508Artificial intelligence has seen several breakthroughs in recent years, with games often serving as milestones. A common feature of these games is that players have perfect information. Poker, the quintessential game of imperfect information, is a long-standing challenge problem in artificial intelligence. We introduce DeepStack, an algorithm for imperfect-information settings. It combines recursive reasoning to handle information asymmetry, decomposition to focus computation on the relevant decision, and a form of intuition that is automatically learned from self-play using deep learning. In a study involving 44,000 hands of poker, DeepStack defeated, with statistical significance, professional poker players in heads-up no-limit Texas hold{\textquoteright}em. The approach is theoretically sound and is shown to produce strategies that are more difficult to exploit than prior approaches.},
 	issn = {0036-8075},
 	URL = {https://science.sciencemag.org/content/356/6337/508},
 	eprint = {https://science.sciencemag.org/content/356/6337/508.full.pdf},
@@ -519,7 +498,6 @@ url={https://doi.org/10.1038/s41586-019-1724-z}
 	year = {2018},
 	doi = {10.1126/science.aao1733},
 	publisher = {American Association for the Advancement of Science},
-	abstract = {Pitting artificial intelligence (AI) against top human players demonstrates just how far AI has come. Brown and Sandholm built a poker-playing AI called Libratus that decisively beat four leading human professionals in the two-player variant of poker called heads-up no-limit Texas hold{\textquoteright}em (HUNL). Over nearly 3 weeks, Libratus played 120,000 hands of HUNL against the human professionals, using a three-pronged approach that included precomputing an overall strategy, adapting the strategy to actual gameplay, and learning from its opponent.Science, this issue p. 418No-limit Texas hold{\textquoteright}em is the most popular form of poker. Despite artificial intelligence (AI) successes in perfect-information games, the private information and massive game tree have made no-limit poker difficult to tackle. We present Libratus, an AI that, in a 120,000-hand competition, defeated four top human specialist professionals in heads-up no-limit Texas hold{\textquoteright}em, the leading benchmark and long-standing challenge problem in imperfect-information game solving. Our game-theoretic approach features application-independent techniques: an algorithm for computing a blueprint for the overall strategy, an algorithm that fleshes out the details of the strategy for subgames that are reached during play, and a self-improver algorithm that fixes potential weaknesses that opponents have identified in the blueprint strategy.},
 	issn = {0036-8075},
 	URL = {https://science.sciencemag.org/content/359/6374/418},
 	eprint = {https://science.sciencemag.org/content/359/6374/418.full.pdf},
@@ -576,17 +554,8 @@ number = {2-3},
 pages = {162-181},
 year = {2019},
 doi = {10.1177/0278364918780322},
-
-URL = { 
-        https://doi.org/10.1177/0278364918780322
-    
-},
-eprint = { 
-        https://doi.org/10.1177/0278364918780322
-    
-}
-,
-    abstract = { The partially observable Markov decision process (POMDP) provides a principled general framework for robot planning under uncertainty. Leveraging the idea of Monte Carlo sampling, recent POMDP planning algorithms have scaled up to various challenging robotic tasks, including, real-time online planning for autonomous vehicles. To further improve online planning performance, this paper presents IS-DESPOT, which introduces importance sampling to DESPOT, a state-of-the-art sampling-based POMDP algorithm for planning under uncertainty. Importance sampling improves DESPOT’s performance when there are critical, but rare events, which are difficult to sample. We prove that IS-DESPOT retains the theoretical guarantee of DESPOT. We demonstrate empirically that importance sampling significantly improves the performance of online POMDP planning for suitable tasks. We also present a general method for learning the importance sampling distribution. }
+URL = { https://doi.org/10.1177/0278364918780322 },
+eprint = { https://doi.org/10.1177/0278364918780322 } ,
 }
 
 @article{kaelbling1998planning,
@@ -1477,8 +1446,9 @@ keywords = {Autonomous Control, Instrumentation and Control System, Small Modula
 @misc{sunberg2021pomdps,
     title={POMDPs.jl and Interactive Assignments in Julia},
     author={Sunberg, Zachary},
-    author+an={1=me},
+    author+an={1=zach},
     year=2021,
+    note={JuliaCon presentation},
     booktitle={JuliaCon}
 }
 
@@ -1664,13 +1634,481 @@ keywords = {Autonomous Control, Instrumentation and Control System, Small Modula
   publisher={Springer}
 }
 
-@misc{perolat2022mastering,
-  doi = {10.48550/ARXIV.2206.15378},
-  url = {https://arxiv.org/abs/2206.15378},
-  author = {Perolat, Julien and de Vylder, Bart and Hennes, Daniel and Tarassov, Eugene and Strub, Florian and de Boer, Vincent and Muller, Paul and Connor, Jerome T. and Burch, Neil and Anthony, Thomas and McAleer, Stephen and Elie, Romuald and Cen, Sarah H. and Wang, Zhe and Gruslys, Audrunas and Malysheva, Aleksandra and Khan, Mina and Ozair, Sherjil and Timbers, Finbarr and Pohlen, Toby and Eccles, Tom and Rowland, Mark and Lanctot, Marc and Lespiau, Jean-Baptiste and Piot, Bilal and Omidshafiei, Shayegan and Lockhart, Edward and Sifre, Laurent and Beauguerlange, Nathalie and Munos, Remi and Silver, David and Singh, Satinder and Hassabis, Demis and Tuyls, Karl},
-  keywords = {Artificial Intelligence (cs.AI), Computer Science and Game Theory (cs.GT), Multiagent Systems (cs.MA), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Mastering the Game of {S}tratego with Model-Free Multiagent Reinforcement Learning},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@article{perolat2022mastering,
+  title={Mastering the game of Stratego with model-free multiagent reinforcement learning},
+  author={Julien Perolat  and Bart De Vylder  and Daniel Hennes  and Eugene Tarassov  and Florian Strub  and Vincent de Boer  and Paul Muller  and Jerome T. Connor  and Neil Burch  and Thomas Anthony  and Stephen McAleer  and Romuald Elie  and Sarah H. Cen  and Zhe Wang  and Audrunas Gruslys  and Aleksandra Malysheva  and Mina Khan  and Sherjil Ozair  and Finbarr Timbers  and Toby Pohlen  and Tom Eccles  and Mark Rowland  and Marc Lanctot  and Jean-Baptiste Lespiau  and Bilal Piot  and Shayegan Omidshafiei  and Edward Lockhart  and Laurent Sifre  and Nathalie Beauguerlange  and Remi Munos  and David Silver  and Satinder Singh  and Demis Hassabis  and Karl Tuyls},
+  journal={Science},
+  volume={378},
+  number={6623},
+  pages={990--996},
+  year={2022},
+  publisher={American Association for the Advancement of Science}
+}
+
+@inproceedings{zhang2019online,
+  title={Online Planning for Decentralized Stochastic Control with Partial History Sharing},
+  author={Zhang, Kaiqing and Miehling, Erik and Ba{\c{s}}ar, Tamer},
+  booktitle=acc,
+  pages={3544--3550},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{amato2015scalable,
+  title={Scalable Planning and Learning for Multiagent {POMDP}s},
+  author={Amato, Christopher and Oliehoek, Frans},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={29},
+  number={1},
+  year={2015}
+}
+
+@article{czechowski2020decentralized,
+  title={Decentralized {MCTS} via Learned Teammate Models},
+  author={Czechowski, Aleksander and Oliehoek, Frans A},
+  journal={arXiv preprint arXiv:2003.08727},
+  year={2020}
+}
+
+@article{asik2023decoupled,
+  title={Decoupled {M}onte {C}arlo Tree Search for Cooperative Multi-Agent Planning},
+  author={Asik, Okan and Aydemir, Fatma Ba{\c{s}}ak and Ak{\i}n, H{\"u}seyin Levent},
+  journal={Applied Sciences},
+  volume={13},
+  number={3},
+  year={2023},
+  publisher={MDPI}
+}
+
+@book{albrecht2023marl,
+  author = {Stefano V. Albrecht and Filippos Christianos and Lukas Sch\"afer},
+  title = {Multi-Agent Reinforcement Learning: Foundations and Modern Approaches},
+  publisher = {MIT Press},
+  year = {2023},
+  url = {https://www.marl-book.com}
+}
+
+@article{zhang2021multi,
+  title={Multi-agent reinforcement learning: A selective overview of theories and algorithms},
+  author={Zhang, Kaiqing and Yang, Zhuoran and Ba{\c{s}}ar, Tamer},
+  journal={Handbook of reinforcement learning and control},
+  pages={321--384},
+  year={2021},
+  publisher={Springer}
+}
+
+@article{durfee2013multiagent,
+  title={Multiagent planning, control, and execution},
+  author={Durfee, Edmund and Zilberstein, Shlomo},
+  journal={Multiagent systems},
+  volume={11},
+  pages={485--545},
+  year={2013},
+  publisher={MIT Press Cambridge}
+}
+
+@inproceedings{bai2015intention,
+  title={Intention-aware online {POMDP} planning for autonomous driving in a crowd},
+  author={Bai, Haoyu and Cai, Shaojun and Ye, Nan and Hsu, David and Lee, Wee Sun},
+  booktitle=icra,
+  pages={454--460},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{luo2018porca,
+  title={{PORCA}: Modeling and planning for autonomous driving among many pedestrians},
+  author={Luo, Yuanfu and Cai, Panpan and Bera, Aniket and Hsu, David and Lee, Wee Sun and Manocha, Dinesh},
+  journal={IEEE Robotics and Automation Letters},
+  volume={3},
+  number={4},
+  pages={3418--3425},
+  year={2018},
+  publisher={IEEE}
+}
+
+@book{oliehoek2016concise,
+  title={A Concise Introduction to Decentralized {POMDP}s},
+  author={Oliehoek, Frans A. and Amato, Christopher},
+  year={2016},
+  publisher={Springer}
+}
+
+@article{marden2009cooperative,
+  title={Cooperative control and potential games},
+  author={Marden, Jason R and Arslan, G{\"u}rdal and Shamma, Jeff S},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)},
+  volume={39},
+  number={6},
+  pages={1393--1407},
+  year={2009},
+  publisher={IEEE}
+}
+
+@inproceedings{nair2003taming,
+  title={Taming decentralized POMDPs: Towards efficient policy computation for multiagent settings},
+  author={Nair, Ranjit and Tambe, Milind and Yokoo, Makoto and Pynadath, David and Marsella, Stacy},
+  booktitle=ijcai,
+  volume={3},
+  pages={705--711},
+  year={2003}
+}
+
+@inproceedings{bernstein2005bounded,
+  title={Bounded policy iteration for decentralized POMDPs},
+  author={Bernstein, Daniel S and Hansen, Eric A and Zilberstein, Shlomo},
+  booktitle=ijcai,
+  pages={52--57},
+  year={2005}
+}
+
+@book{nisan2007algorithmic,
+  title={Algorithmic Game Theory},
+  author={Nisan, Noam and Roughgarden, Tim and Tardos, Eva and Vazirani, Vijay V},
+  year=2007,
+  publisher={Cambridge University Press}
+}
+
+@inproceedings{kearns2000fast,
+  title={Fast planning in stochastic games},
+  author={Kearns, Michael and Mansour, Yishay and Singh, Satinder},
+  booktitle=uai,
+  pages={309--316},
+  year={2000}
+}
+
+@article{gibbons1997introduction,
+  title={An introduction to applicable game theory},
+  author={Gibbons, Robert},
+  journal={Journal of Economic Perspectives},
+  volume={11},
+  number={1},
+  pages={127--149},
+  year={1997},
+  publisher={American Economic Association}
+}
+
+@book{camerer2011behavioral,
+  title={Behavioral game theory: Experiments in strategic interaction},
+  author={Camerer, Colin F.},
+  year={2011},
+  publisher={Princeton University Press}
+}
+
+@article{doshi2009monte,
+  title={{M}onte {C}arlo sampling methods for approximating interactive {POMDP}s},
+  author={Doshi, Prashant and Gmytrasiewicz, Piotr J.},
+  journal=jair,
+  volume={34},
+  pages={297--337},
+  year={2009}
+}
+
+@inproceedings{gmytrasiewicz2004interactive,
+  title={Interactive {POMDP}s: Properties and preliminary results},
+  author={Gmytrasiewicz, Piotr J. and Doshi, Prashant},
+  booktitle=aamas,
+  volume={3},
+  pages={1374--1375},
+  year={2004}
+}
+
+@inproceedings{coates2004distributed,
+  title={Distributed particle filters for sensor networks},
+  author={Coates, Mark},
+  booktitle={Proceedings of the 3rd international symposium on Information processing in sensor networks},
+  pages={99--107},
+  year={2004}
+}
+
+@inproceedings{herz2013ssa,
+  title={{SSA} sensor tasking approach for improved orbit determination accuracies and more efficient use of ground assets},
+  author={Herz, Alexander F and Stoner, Frank and Hall, Robert and Fisher, William},
+  booktitle= amos,
+  year={2013}
+}
+
+@inproceedings{lisy2015online,
+  title={Online {M}onte {C}arlo Counterfactual Regret Minimization for Search in Imperfect Information Games.},
+  author={Lisy, Viliam and Lanctot, Marc and Bowling, Michael H.},
+  booktitle=aamas,
+  pages={27--36},
+  year={2015}
+}
+
+@article{cowling2012information,
+  title={Information set {M}onte {C}arlo tree search},
+  author={Cowling, Peter I. and Powley, Edward J. and Whitehouse, Daniel},
+  journal={{IEEE} Transactions on Computational Intelligence and AI in Games},
+  volume={4},
+  number={2},
+  pages={120--143},
+  year={2012},
+  publisher={IEEE}
+}
+
+@article{robinson1951iterative,
+  title={An iterative method of solving a game},
+  author={Robinson, Julia},
+  journal={Annals of mathematics},
+  pages={296--301},
+  year={1951},
+  publisher={JSTOR}
+}
+
+@article{fang2017paws,
+  title={{PAWS}—A deployed game-theoretic application to combat poaching},
+  author={Fang, Fei and Nguyen, Thanh H. and Pickles, Rob and Lam, Wai Y. and Clements, Gopalasamy R. and An, Bo and Singh, Amandeep and Schwedock, Brian C. and Tambe, Milin and Lemieux, Andrew},
+  journal={AI Magazine},
+  volume={38},
+  number={1},
+  pages={23--36},
+  year={2017}
+}
+
+@inproceedings{badura2022system,
+  title={System design and analysis for cislunar space domain awareness through distributed sensors},
+  author={Badura, Gregory and Shimane, Yuri and Gregoire, Alaric and Patel, Rohan and Gilmartin, Matthew and Gangolli, Kunal and Visonneau, Lois and Tysor, Joshua and Manojkumar, S. and Humphrey, F. and Valenta, Chris and Reilly, Blair and Lourenco, Nelson and Hodkin, Jason and Sudol, Alicia and Borowitz, Mariel and Gunter, Brian and Christian, John and Koki Ho},
+  booktitle={AAS/AIAA Astrodynamics Specialist Conference, Charlotte, NC},
+  pages={1--20},
+  year={2022}
+}
+
+@article{wang2023optimizing,
+  title={Optimizing Carbon Storage Operations for Long-Term Safety},
+  author={Wang, Yizheng and Zechner, Markus and Wen, Gege and Corso, Anthony Louis and Mern, John Michael and Kochenderfer, Mykel J. and Caers, Jef Karel},
+  journal={arXiv preprint arXiv:2304.09352},
+  year={2023}
+}
+
+@article{meta2022human,
+  title={Human-level play in the game of Diplomacy by combining language models with strategic reasoning},
+  author={Meta Fundamental AI Research Diplomacy Team (FAIR) and Anton Bakhtin  and Noam Brown  and Emily Dinan  and Gabriele Farina  and Colin Flaherty  and Daniel Fried  and Andrew Goff  and Jonathan Gray  and Hengyuan Hu  and Athul Paul Jacob  and Mojtaba Komeili  and Karthik Konath  and Minae Kwon  and Adam Lerer  and Mike Lewis  and Alexander H. Miller  and Sasha Mitts  and Adithya Renduchintala  and Stephen Roller  and Dirk Rowe  and Weiyan Shi  and Joe Spisak  and Alexander Wei  and David Wu  and Hugh Zhang  and Markus Zijlstra},
+  journal={Science},
+  volume={378},
+  number={6624},
+  pages={1067--1074},
+  year={2022},
+  publisher={American Association for the Advancement of Science}
+}
+
+@article{bakhtin2022mastering,
+  title={Mastering the game of no-press Diplomacy via human-regularized reinforcement learning and planning},
+  author={Bakhtin, Anton and Wu, David J. and Lerer, Adam and Gray, Jonathan and Jacob, Athul Paul and Farina, Gabriele and Miller, Alexander H. and Brown, Noam},
+  journal={arXiv preprint arXiv:2210.05492},
+  year={2022}
+}
+
+@inproceedings{kuefler2017imitating,
+  title={Imitating driver behavior with generative adversarial networks},
+  author={Kuefler, Alex and Morton, Jeremy and Wheeler, Tim and Kochenderfer, Mykel},
+  booktitle={2017 IEEE Intelligent Vehicles Symposium (IV)},
+  pages={204--211},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{gindele2015learning,
+  title={Learning driver behavior models from traffic observations for decision making and planning},
+  author={Gindele, Tobias and Brechtel, Sebastian and Dillmann, Rudiger},
+  journal={{IEEE} Intelligent Transportation Systems Magazine},
+  volume={7},
+  number={1},
+  pages={69--79},
+  year={2015},
+  publisher={IEEE}
+}
+
+@article{li2022reducing,
+  title={Reducing Collision Risk in Multi-Agent Path Planning: Application to Air traffic Management},
+  author={Li, Sarah HQ and Mittal, Avi and Acikmese, Behcet},
+  journal={arXiv preprint arXiv:2212.04122},
+  year={2022}
+}
+
+@inproceedings{brechtel2014probabilistic,
+  title={Probabilistic decision-making under uncertainty for autonomous driving using continuous POMDPs},
+  author={Brechtel, Sebastian and Gindele, Tobias and Dillmann, R{\"u}diger},
+  booktitle={17th international IEEE conference on intelligent transportation systems (ITSC)},
+  pages={392--399},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{fridovich2020efficient,
+  title={Efficient iterative linear-quadratic approximations for nonlinear multi-player general-sum differential games},
+  author={Fridovich-Keil, David and Ratner, Ellis and Peters, Lasse and Dragan, Anca D and Tomlin, Claire J},
+  booktitle={2020 IEEE international conference on robotics and automation (ICRA)},
+  pages={1475--1481},
+  year={2020},
+  organization={IEEE}
+}
+
+@article{wang2021game,
+  title={Game-theoretic planning for self-driving cars in multivehicle competitive scenarios},
+  author={Wang, Mingyu and Wang, Zijian and Talbot, John and Gerdes, J. Christian and Schwager, Mac},
+  journal={{IEEE} Transactions on Robotics},
+  volume={37},
+  number={4},
+  pages={1313--1325},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{subramanian2022approximate,
+  title={Approximate information state for approximate planning and reinforcement learning in partially observed systems},
+  author={Subramanian, Jayakumar and Sinha, Amit and Seraj, Raihan and Mahajan, Aditya},
+  journal={The Journal of Machine Learning Research},
+  volume={23},
+  number={1},
+  pages={483--565},
+  year={2022},
+  publisher={JMLRORG}
+}
+
+@inproceedings{fischer2020information,
+  title={Information particle filter tree: An online algorithm for pomdps with belief-based rewards on continuous domains},
+  author={Fischer, Johannes and Tas, {\"O}mer Sahin},
+  booktitle={International Conference on Machine Learning},
+  pages={3177--3187},
+  year={2020},
+  organization={PMLR}
+}
+
+@article{choudhury2022dynamic,
+  title={Dynamic multi-robot task allocation under uncertainty and temporal constraints},
+  author={Choudhury, Shushman and Gupta, Jayesh K and Kochenderfer, Mykel J. and Sadigh, Dorsa and Bohg, Jeannette},
+  journal={Autonomous Robots},
+  volume={46},
+  number={1},
+  pages={231--247},
+  year={2022},
+  publisher={Springer}
+}
+
+@article{paszke2019pytorch,
+  title={Pytorch: An imperative style, high-performance deep learning library},
+  author={Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and Desmaison, Alban and Kopf, Andreas and Yang, Edward and DeVito, Zachary and Raison, Martin and Tejani, Alykhan and Chilamkurthy, Sasank and Steiner, Benoit and Fang, Lu and Bai, Junjie and Chintala, Soumith},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019}
+}
+
+@article{terry2021pettingzoo,
+  title={Pettingzoo: Gym for multi-agent reinforcement learning},
+  author={Terry, J and Black, Benjamin and Grammel, Nathaniel and Jayakumar, Mario  and Hari, Ananth  and Sullivan, Ryan and Santos, Luis S and Dieffendahl, Clemens and Horsch, Caroline and Perez-Vicente, Rodrigo and Williams, Niall  and Lokesh, Yashas  and Ravi , Praveen},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={15032--15043},
+  year={2021}
+}
+
+@article{raymond1999cathedral,
+  title={The cathedral and the bazaar},
+  author={Raymond, Eric},
+  journal={Knowledge, Technology \& Policy},
+  volume={12},
+  number={3},
+  pages={23--49},
+  year={1999},
+  publisher={Springer}
+}
+
+@misc{procida2017what,
+    title={What nobody tells you about documentation},
+    author={Procida, Daniele},
+    year=2017,
+    note={PyCon Australia Presentation},
+    url={https://www.youtube.com/watch?v=t4vKPhjcMZg}
+}
+
+@inproceedings{tourani2017code,
+  title={Code of conduct in open source projects},
+  author={Tourani, Parastou and Adams, Bram and Serebrenik, Alexander},
+  booktitle={International conference on software analysis, evolution and reengineering (SANER)},
+  pages={24--33},
+  year={2017},
+  organization={{IEEE}}
+}
+
+@inproceedings{henderson2018deep,
+  title={Deep reinforcement learning that matters},
+  author={Henderson, Peter and Islam, Riashat and Bachman, Philip and Pineau, Joelle and Precup, Doina and Meger, David},
+  booktitle=aaai,
+  volume={32},
+  number={1},
+  year={2018}
+}
+
+@inproceedings{khan2009minimal,
+  title={Minimal sufficient explanations for factored markov decision processes},
+  author={Khan, Omar and Poupart, Pascal and Black, James},
+  booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},
+  volume={19},
+  pages={194--200},
+  year={2009}
+}
+
+@article{moss2023betazero,
+  title={BetaZero: Belief-State Planning for Long-Horizon {POMDP}s using Learned Approximations},
+  author={Moss, Robert J and Corso, Anthony and Caers, Jef and Kochenderfer, Mykel J},
+  journal={arXiv preprint arXiv:2306.00249},
+  year={2023}
+}
+
+@book{osborne1994course,
+  title={A course in game theory},
+  author={Osborne, Martin J and Rubinstein, Ariel},
+  year={1994},
+  publisher={MIT press}
+}
+
+@inproceedings{gupta2017cooperative,
+  title={Cooperative multi-agent control using deep reinforcement learning},
+  author={Gupta, Jayesh K. and Egorov, Maxim and Kochenderfer, Mykel},
+  booktitle=aamas,
+  pages={66--83},
+  year={2017},
+  organization={Springer}
+}
+
+@article{gronauer2022multi,
+  title={Multi-agent deep reinforcement learning: a survey},
+  author={Gronauer, Sven and Diepold, Klaus},
+  journal={Artificial Intelligence Review},
+  pages={1--49},
+  year={2022},
+  publisher={Springer}
+}
+
+@inproceedings{jamgochian2023online,
+  title={Online planning for constrained POMDPs with continuous spaces through dual ascent},
+  author={Jamgochian, Arec and Corso, Anthony and Kochenderfer, Mykel J},
+  booktitle={Proceedings of the International Conference on Automated Planning and Scheduling},
+  volume={33},
+  number={1},
+  pages={198--202},
+  year={2023}
+}
+
+@article{sardar2019impact,
+  title={Impact of artificial intelligence on interventional cardiology: from decision-making aid to advanced interventional procedure assistance},
+  author={Sardar, Partha and Abbott, J Dawn and Kundu, Amartya and Aronow, Herbert D and Granada, Juan F and Giri, Jay},
+  journal={Cardiovascular interventions},
+  volume={12},
+  number={14},
+  pages={1293--1303},
+  year={2019},
+  publisher={American College of Cardiology Foundation Washington DC}
+}
+
+@article{holzinger2018challenges,
+  title={Challenges and potential in space domain awareness},
+  author={Holzinger, Marcus J and Jah, Moribah K},
+  journal={Journal of Guidance, Control, and Dynamics},
+  volume={41},
+  number={1},
+  pages={15--18},
+  year={2018},
+  publisher={American Institute of Aeronautics and Astronautics}
 }
